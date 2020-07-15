@@ -8,5 +8,11 @@
 
 import Foundation
 
-print("Hello, World!")
+task1()
 
+//Задача 1. Создать строку с своим именем, вывести количество символов содержащихся в ней?
+
+func task1() {
+    let name: String = "Roma Samoilenko"
+    print(name.count)
+}
